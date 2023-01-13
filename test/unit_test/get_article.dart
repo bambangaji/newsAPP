@@ -25,6 +25,7 @@ void main() async {
       }
       expect(data.articles, []);
     });
+
     test('Test endpoint returns 200 with data', () async {
       var data = NewsApi.dataError();
       try {
